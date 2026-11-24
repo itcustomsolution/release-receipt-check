@@ -1,0 +1,21 @@
+{
+  "schema_version": 2,
+  "environment": "staging",
+  "revision": "example-r42",
+  "artifact_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "evidence_ref": "example-observation-42",
+  "checks": {
+    "unit": {
+      "artifact_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "outcome": "PASS",
+      "test_exit_code": 0,
+      "evidence_ref": "example-unit-output-42",
+      "deployment_id": "fixture-stage-deployment-42",
+      "environment": "staging",
+      "revision": "example-r42",
+      "completed_at": "2026-01-02T10:04:00-05:00"
+    }
+  },
+  "deployment_id": "fixture-stage-deployment-42",
+  "observed_at": "2026-01-02T15:05:00Z"
+}

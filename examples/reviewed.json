@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "environment": "staging",
+  "revision": "example-r42",
+  "artifact_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+  "author": "fixture-builder",
+  "required_checks": [
+    "unit",
+    "smoke"
+  ],
+  "review": {
+    "environment": "staging",
+    "revision": "example-r42",
+    "artifact_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "reviewer": "fixture-reviewer",
+    "verdict": "PASS",
+    "evidence_ref": "example-review-42",
+    "deployment_id": "fixture-stage-deployment-42",
+    "reviewed_at": "2026-01-02T15:02:00Z"
+  },
+  "rollback": {
+    "artifact_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "reference": "example-previous-release-r41"
+  },
+  "deployment_id": "fixture-stage-deployment-42"
+}
